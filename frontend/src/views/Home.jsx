@@ -105,14 +105,18 @@ const Home = () => {
                     </video>
                 </div>
 
-                <div className="content-para-main">
-                    <h2 className="subtitle">Story of <span style={{ color: "orange" }}>Modifix</span>{" "}</h2>
+                <div className="content-para-main1">
+                    <h2 className="subtitle"><span className='test1'>What we do</span><br></br><span style={{ color: "orange" , fontSize: '40px'}} className='test2'>WE BUILD BIKE MODIFIED PARTS</span>{" "}</h2>
                     <p className="para">
-                        Sri Lanka's economic crisis, imports have been banned or limited, and high taxes have made vehicle spare parts unreasonably priced and of poor quality.
-                        To address this, we turned our focus to manufacturing motorbike fairings using fiberglass instead of plastic. Raw materials are easily accessible in Jaffna,
-                        where we obtained quotations for manufacturing costs. The stark price difference between locally made fiberglass parts and imported ones proves our affordability.
-                        Moreover, our commitment to quality ensures customers receive a superior product. With easy online accessibility, bike enthusiasts can now purchase affordable and high-quality fairings.
+                    MODIFIX will offer easy availability of locally made parts out of fibreglass at affordable prices in varied designs. 
+
                     </p>
+                    <ul className='ul-list'>
+                        <li>Used Imported Parts</li>
+                        <li>Modifications Only</li>
+                        <li>Sports bikes</li>
+                        {/* <li>bike4</li> */}
+                    </ul>
                 </div>
             </section>
 

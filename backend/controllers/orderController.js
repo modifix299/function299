@@ -6,6 +6,7 @@ const Product = require('../models/productModel');
 //Create New Order 
 const newOrder =  catchAsyncError( async (req, res, next) => {
     const {
+      orderId,
         orderItems,
         shippingInfo,
         totalPrice,
@@ -14,6 +15,7 @@ const newOrder =  catchAsyncError( async (req, res, next) => {
      } = req.body;
 
     const order = await Order.create({
+      orderId,
         orderItems,
         shippingInfo,
         totalPrice,

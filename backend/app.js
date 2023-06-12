@@ -7,7 +7,7 @@ const connectDB = require('./config/dbConnection');
 const mongoose = require('mongoose');
 const cors = require('cors')
 const corsOptions = require('./config/corsOptions')
-const PORT = process.env.PORT || 8000
+// const PORT = process.env.PORT || 8000
 
 
  
@@ -29,11 +29,9 @@ app.use('/customer/auth', require('./routes/customerAuthRoutes'));
 
 
  
-connectDB().then(()=>{
-    console.log('Connected to MongoDB');
-});
+connectDB()
 
-app.listen(PORT,() => {
-    console.log(`Server Running On Port ${PORT} `);
+app.listen(8000,() => {
+    console.log(`Server Running On Port 8000 `);
 });
 

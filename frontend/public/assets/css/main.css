@@ -943,7 +943,7 @@ a.mobile-show {
   margin: auto;
   margin-top: 70px;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 .slider .slide-track {
@@ -1482,7 +1482,7 @@ ul.product-share li:hover a {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  
+   
 }
 
 .single-product-item:hover {
@@ -1772,8 +1772,25 @@ div.owl-controls, .owl-controls div {
   width: 20vh;
 
 }
+.test1{
+  font-size: medium;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
 
+}
 
+.ul-list {
+  /* content: "▶   "; */
+  transform: translateX(-3.5%);
+}
+.ul-list li{
+  list-style-type: "▶   ";
+  margin-right: 40px !important;
+}
+.content-para-main1{
+transform: translate(15% , -9%);
+}
 
 /* -----------------------------------------------------------------------------
 

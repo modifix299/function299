@@ -51,7 +51,8 @@ const Orders = () => {
                         <tbody>
                             {!isLoading && orders.map((order,key) => (
                             <tr key = {key} > 
-                                <td>{order._id}</td>
+                                {/* <td>{order._id}</td> */}
+                                <td>{order.orderId}</td>
                                 <td>{order.shippingInfo[0].name}</td>                         
                                 <td>{order.totalPrice}</td>
                                 <td>{order.orderStatus}</td>
