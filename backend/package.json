@@ -26,6 +26,7 @@
     "mongoose-sequence": "^5.3.1",
     "multer": "^1.4.5-lts.1",
     "react-toastify": "^9.1.2",
+    "shortid": "^2.2.16",
     "uuid": "^8.3.2",
     "y": "^0.3.2"
   },

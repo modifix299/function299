@@ -2955,15 +2955,15 @@ table.order-details tbody td {
 }
 
 .about{
-  margin-left: 180px;
+  margin-left: 160px;
 
 }
 .products{
-  margin-left: 210px;
+  margin-left: 190px;
   
 }
 .home{
-  margin-left: 180px;
+  margin-left: 190px;
   
 }
 
@@ -2972,6 +2972,7 @@ table.order-details tbody td {
 
  .add{
   margin-left: 150px;
+  
 } 
 
 .customer{
@@ -2999,13 +3000,14 @@ table.order-details tbody td {
   margin-right: -100px;
 }
 
-/* cart count */
-.cart-count {
+
+#cart_count {
   background-color: #fffd23;
-  color:black;
+  color: black;
   border-radius: 50%;
   padding: 2px 4px;
   font-size: 15px;
+  font: bold;
   position: absolute;
   top: -8px;
   right: -8px;
